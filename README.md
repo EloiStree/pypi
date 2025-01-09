@@ -62,3 +62,17 @@ python -m twine upload dist/*
 
 Use https://test.pypi.org for training.  
 https://youtu.be/9Ii34WheBOA?t=699  
+
+
+
+USER_PATH/.pypirc  
+```
+[distutils]
+index-servers =
+    pypi
+    
+[pypi]
+username = __token__
+password = pypi-AgEIc...
+```
+
